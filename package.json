@@ -4,7 +4,9 @@
   "description": "Laravel Elixir 3 Icon Font Extension",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,9 @@
   "dependencies": {
     "gulp-iconfont": "^6.0.0",
     "gulp-iconfont-css": "^2.0.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "snyk": "^1.53.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
