@@ -25,7 +25,7 @@
   "license": "MIT",
   "homepage": "https://github.com/codezero-be/laravel-elixir-icons",
   "dependencies": {
-    "gulp-iconfont": "^6.0.0",
+    "gulp-iconfont": "^8.0.0",
     "gulp-iconfont-css": "^2.0.0",
     "underscore": "^1.8.3",
     "snyk": "^1.53.0"
