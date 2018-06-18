@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,7 @@
     "gulp-iconfont": "^8.0.0",
     "gulp-iconfont-css": "^2.0.0",
     "underscore": "^1.8.3",
-    "snyk": "^1.53.0"
+    "snyk": "^1.83.0"
   },
   "devDependencies": {},
   "snyk": true
