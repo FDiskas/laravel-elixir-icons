@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -29,3 +29,6 @@ patch:
         patched: '2017-12-04T06:49:47.975Z'
     - gulp-iconfont > plexer > debug > ms:
         patched: '2017-12-04T06:49:47.975Z'
+  'npm:lodash:20180130':
+    - gulp-iconfont-css > lodash:
+        patched: '2018-07-03T00:02:22.472Z'
