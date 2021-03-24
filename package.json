@@ -29,7 +29,7 @@
     "gulp-iconfont": "^9.0.0",
     "gulp-iconfont-css": "^3.0.0",
     "underscore": "^1.8.3",
-    "snyk": "^1.189.0"
+    "snyk": "^1.509.0"
   },
   "devDependencies": {},
   "snyk": true
